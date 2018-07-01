@@ -1,0 +1,31 @@
+{
+  "name": "boilarplate",
+  "version": "1.0.0",
+  "description": "simple-react-app",
+  "main": "index.js",
+  "author": "Amir Ali",
+  "license": "MIT",
+  "scripts": {
+    "devServer": "webpack-dev-server",
+    "webpack": "webpack"
+  },
+  "dependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-plugin-transform-class-properties": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "css-loader": "*",
+    "node-sass": "*",
+    "normalize.css": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-modal": "*",
+    "react-particles-js": "^2.2.0",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  }
+}
