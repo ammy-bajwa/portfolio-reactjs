@@ -7,7 +7,9 @@
   "license": "MIT",
   "scripts": {
     "devServer": "webpack-dev-server",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "start": "node server/server.js",
+    "heroku-postbuild": "npm run webpack:prod"
   },
   "dependencies": {
     "babel-cli": "*",
@@ -26,6 +28,7 @@
     "sass-loader": "*",
     "style-loader": "*",
     "webpack": "*",
-    "webpack-dev-server": "*"
+    "webpack-dev-server": "*",
+    "express": "*"
   }
 }

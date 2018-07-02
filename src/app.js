@@ -5,6 +5,7 @@ import './styles/style.scss';
 import Particles from 'react-particles-js';
 import Navbar from './components/Navbar';
 import Slider from './components/Slider';
+import Services from './components/Services';
 
 class App extends React.Component {
 
@@ -135,6 +136,7 @@ class App extends React.Component {
         <div id="mainContentDiv">
           <Navbar />
           <Slider />
+          <Services />
         </div>
       </div>
     );
