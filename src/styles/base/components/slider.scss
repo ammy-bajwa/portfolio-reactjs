@@ -1,0 +1,16 @@
+.sliderImg{
+    width: 100%;
+}
+.carousel {
+    background: rgba(0,0,0,.4) !important;
+}
+.carousel-caption{
+    top: 50%;
+    background: rgba(0,0,0,.7);
+    transform: translateY(-50%);
+    bottom: initial;
+}
+.w-100 {
+    width: 53%!important;
+    opacity: .6 !important;
+}
