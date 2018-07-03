@@ -7,8 +7,8 @@ class Navbar extends React.Component {
         return (
             <div className="container" id='testmonialMain'>
                 <div id='featuresDivHeading'>
-                    <h1 className='text-center' id='headingProject'>Features</h1>
-                    <p className='text-center' id='projectPara'>We provide our best to give you best features available in the market and those which fits best your requirements.</p>
+                    <h1 className='text-center' id='headingProject'>HAPPY CLIENTS SAYS...</h1>
+                    <p className='text-center' id='projectPara'>These are some of the comments of our previous clients.</p>
                 </div>
                 <div className="row">
                     <div className="col-sm-6">
