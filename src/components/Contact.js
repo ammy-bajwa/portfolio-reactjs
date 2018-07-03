@@ -2,9 +2,6 @@ import React from 'react';
 
 
 class Contact extends React.Component {
-    formHandler = (e) => {
-        e.preventDefault();
-    }
     render() {
         return (
             <div className="container" id='contactMain'>
