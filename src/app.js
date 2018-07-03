@@ -8,6 +8,8 @@ import Slider from './components/Slider';
 import Services from './components/Services';
 import Projects from './components/Projects';
 import Features from './components/Features';
+import Testmonials from './components/Testmonials';
+import Price from './components/Price';
 
 class App extends React.Component {
 
@@ -141,6 +143,8 @@ class App extends React.Component {
           <Services />
           <Projects />
           <Features />
+          <Testmonials />
+          <Price />
         </div>
       </div>
     );

@@ -27,7 +27,7 @@ class Navbar extends React.Component {
                             <a data-toggle="collapse" data-target=".navbar-collapse" className="nav-link" href="#featuresMain">Features</a>
                         </li>
                         <li className="nav-item">
-                            <a data-toggle="collapse" data-target=".navbar-collapse" className="nav-link" href="#">Testmonials</a>
+                            <a data-toggle="collapse" data-target=".navbar-collapse" className="nav-link" href="#testmonialMain">Testmonials</a>
                         </li>
                         <li className="nav-item">
                             <a data-toggle="collapse" data-target=".navbar-collapse" className="nav-link" href="#">Pricing</a>
