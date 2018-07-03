@@ -18,6 +18,7 @@ class Price extends React.Component {
                         <div className="card-body text-center">
                             <h5 className="card-title">STARTER</h5>
                             <p className="card-text">For startup and newly emerged business.</p>
+                            <p className="card-text"><small className="text-muted">$15 per Hour</small></p>
                         </div>
                     </div>
                     <div className="card featureCard">
@@ -27,6 +28,7 @@ class Price extends React.Component {
                         <div className="card-body text-center">
                             <h5 className="card-title">REGULAR</h5>
                             <p className="card-text">Basic customer support for small business.</p>
+                            <p className="card-text"><small className="text-muted">$25 per Hour</small></p>
                         </div>
                     </div>
                     <div className="card featureCard">
@@ -35,7 +37,8 @@ class Price extends React.Component {
                         </div>
                         <div className="card-body text-center">
                             <h5 className="card-title">PLUS</h5>
-                            <p className="card-text">For those who want to work for lonk time with me but dont have a big company.</p>
+                            <p className="card-text">For those who want to work for long time with me but dont have a big company.</p>
+                            <p className="card-text"><small className="text-muted">$35 per Hour</small></p>
                         </div>
                     </div>
                 </div>
@@ -46,6 +49,7 @@ class Price extends React.Component {
                     <div className="card-body text-center">
                         <h5 className="card-title">ENTERPRICE</h5>
                         <p className="card-text">For Enterprices having large and long term projects.</p>
+                        <p className="card-text"><small className="text-muted">$40 per Hour</small></p>
                     </div>
                 </div>
             </div>

@@ -10,6 +10,7 @@ import Projects from './components/Projects';
 import Features from './components/Features';
 import Testmonials from './components/Testmonials';
 import Price from './components/Price';
+import Contact from './components/Contact';
 
 class App extends React.Component {
 
@@ -145,6 +146,7 @@ class App extends React.Component {
           <Features />
           <Testmonials />
           <Price />
+          <Contact />
         </div>
       </div>
     );

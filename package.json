@@ -19,7 +19,9 @@
     "babel-preset-env": "*",
     "babel-preset-react": "*",
     "css-loader": "*",
+    "express": "*",
     "node-sass": "*",
+    "nodemailer": "^4.6.7",
     "normalize.css": "*",
     "react": "*",
     "react-dom": "*",
@@ -28,7 +30,6 @@
     "sass-loader": "*",
     "style-loader": "*",
     "webpack": "*",
-    "webpack-dev-server": "*",
-    "express": "*"
+    "webpack-dev-server": "*"
   }
 }
