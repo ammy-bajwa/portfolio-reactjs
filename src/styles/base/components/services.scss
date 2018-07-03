@@ -1,5 +1,6 @@
 #serviceMainDiv{
     font-size: 2em;
+    scroll-behavior: smooth;
 }
 #deckFirstCard{
     background: rgba(0,0,0,.4) !important;
@@ -14,5 +15,23 @@
     font-size: 2.5rem;
 }
 #servicesHeading{
-    margin: 2em;
+    margin: 2em 0 2em 0;
+}
+.card{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#nodejsDiv{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+#mongoDiv{
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+#firebaseImg{
+    width: 14%;
+}
+.card-deck {
+    margin-bottom: 2%;
 }

@@ -31,7 +31,7 @@ class Slider extends React.Component {
 
                         <div className="carousel-caption d-none d-md-block">
                             <h1>Transorm Your Business</h1>
-                            <h2>We Will Transform And Shape You`r Startup Business Into A Beautiful And Reliable Website Or Application</h2>
+                            <h2>I Will Transform And Shape You`r Startup Business Into A Beautiful And Reliable Website Or Application</h2>
                         </div>
                     </div>
                     <div className="carousel-item">
