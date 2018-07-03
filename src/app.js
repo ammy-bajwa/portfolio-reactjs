@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import Services from './components/Services';
 import Projects from './components/Projects';
+import Features from './components/Features';
 
 class App extends React.Component {
 
@@ -139,6 +140,7 @@ class App extends React.Component {
           <Slider />
           <Services />
           <Projects />
+          <Features />
         </div>
       </div>
     );
