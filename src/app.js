@@ -6,6 +6,7 @@ import Particles from 'react-particles-js';
 import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import Services from './components/Services';
+import Projects from './components/Projects';
 
 class App extends React.Component {
 
@@ -137,6 +138,7 @@ class App extends React.Component {
           <Navbar />
           <Slider />
           <Services />
+          <Projects />
         </div>
       </div>
     );
