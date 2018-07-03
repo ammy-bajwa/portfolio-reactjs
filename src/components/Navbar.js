@@ -15,25 +15,25 @@ class Navbar extends React.Component {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul className="navbar-nav mr-auto mt-2 mt-lg-0 p-2">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#carouselExampleIndicators">Home <span className="sr-only">(current)</span></a>
+                            <a data-toggle="collapse" data-target=".navbar-collapse" className="nav-link" href="#carouselExampleIndicators">Home <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#serviceMainDiv">Services</a>
+                            <a data-toggle="collapse" data-target=".navbar-collapse" className="nav-link" href="#serviceMainDiv">Services</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#projectsMainDiv">Projects</a>
+                            <a data-toggle="collapse" data-target=".navbar-collapse" className="nav-link" href="#projectsMainDiv">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Features</a>
+                            <a data-toggle="collapse" data-target=".navbar-collapse" className="nav-link" href="#">Features</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Testmonials</a>
+                            <a data-toggle="collapse" data-target=".navbar-collapse" className="nav-link" href="#">Testmonials</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Pricing</a>
+                            <a data-toggle="collapse" data-target=".navbar-collapse" className="nav-link" href="#">Pricing</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact us</a>
+                            <a data-toggle="collapse" data-target=".navbar-collapse" className="nav-link" href="#">Contact us</a>
                         </li>
                     </ul>
                 </div>
