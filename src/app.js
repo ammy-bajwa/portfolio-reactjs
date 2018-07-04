@@ -21,10 +21,10 @@ class App extends React.Component {
           params={{
             "particles": {
               "number": {
-                "value": 70,
+                "value": 50,
                 "density": {
                   "enable": true,
-                  "value_area": 500
+                  "value_area": 1200
                 }
               },
               "color": {
@@ -56,29 +56,30 @@ class App extends React.Component {
                 }
               },
               "size": {
-                "value": 5,
+                "value": 10,
                 "random": true,
                 "anim": {
                   "enable": false,
-                  "speed": 40,
+                  "speed": 80,
                   "size_min": 0.1,
                   "sync": false
                 }
               },
               "line_linked": {
                 "enable": true,
-                "distance": 150,
+                "distance": 300,
                 "color": "#ffffff",
                 "opacity": 0.4,
-                "width": 1
+                "width": 2
               },
               "move": {
                 "enable": true,
-                "speed": 6,
+                "speed": 12,
                 "direction": "none",
                 "random": false,
                 "straight": false,
                 "out_mode": "out",
+                "bounce": false,
                 "attract": {
                   "enable": false,
                   "rotateX": 600,
@@ -89,8 +90,14 @@ class App extends React.Component {
             "interactivity": {
               "detect_on": "canvas",
               "events": {
-                "onhover": {
+                "onresize": {
                   "enable": true,
+                  "density_auto": true,
+                  "density_area": 400 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
+                }
+                ,
+                "onhover": {
+                  "enable": false,
                   "mode": "repulse"
                 },
                 "onclick": {
@@ -101,20 +108,21 @@ class App extends React.Component {
               },
               "modes": {
                 "grab": {
-                  "distance": 400,
+                  "distance": 800,
                   "line_linked": {
                     "opacity": 1
                   }
                 },
                 "bubble": {
-                  "distance": 400,
-                  "size": 40,
+                  "distance": 800,
+                  "size": 80,
                   "duration": 2,
-                  "opacity": 8,
-                  "speed": 2
+                  "opacity": 0.8,
+                  "speed": 3
                 },
                 "repulse": {
-                  "distance": 200
+                  "distance": 400,
+                  "duration": 0.4
                 },
                 "push": {
                   "particles_nb": 4
@@ -124,16 +132,9 @@ class App extends React.Component {
                 }
               }
             },
-            "retina_detect": true,
-            "config_demo": {
-              "hide_card": false,
-              "background_color": "#b61924",
-              "background_image": "",
-              "background_position": "50% 50%",
-              "background_repeat": "no-repeat",
-              "background_size": "cover"
-            }
-          }}
+            "retina_detect": true
+          }
+          }
           style={{
             width: '100%'
           }}

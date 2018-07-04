@@ -19,7 +19,7 @@ class Slider extends React.Component {
 
                         <div className="carousel-caption d-none d-md-block">
                             <h1>Wellcome</h1>
-                            <h2>Hello And Wellcome I Am Here To Transform You`r Idea Into Reality</h2>
+                            <h3>Hello And Wellcome I Am Here To Transform You`r Idea Into Reality</h3>
                         </div>
                     </div>
                     <div className="carousel-item">
@@ -30,8 +30,8 @@ class Slider extends React.Component {
                         </div>
 
                         <div className="carousel-caption d-none d-md-block">
-                            <h1>Transorm Your Business</h1>
-                            <h2>I Will Transform And Shape You`r Startup Business Into A Beautiful And Reliable Website Or Application</h2>
+                            <h1>Transform Your Business</h1>
+                            <h3>Shape You`r Startup Business Into A Beautiful And Reliable Website Or Application</h3>
                         </div>
                     </div>
                     <div className="carousel-item">
@@ -43,7 +43,7 @@ class Slider extends React.Component {
 
                         <div className="carousel-caption d-none d-md-block">
                             <h1>Customer Care</h1>
-                            <h2>My Goal As A Freelancer Is To Have Customer Service That Is Not Just The Best, But Legendary. </h2>
+                            <h3>My Goal As A Freelancer Is To Have Customer Service That Is Not Just The Best, But Legendary. </h3>
                         </div>
                     </div>
                 </div>

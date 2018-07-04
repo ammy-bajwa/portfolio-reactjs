@@ -10,9 +10,13 @@
     transform: translateY(-50%);
     bottom: initial;
 }
+/* Smartphones (landscape) ----------- */
 .w-100 {
     width: 53%!important;
     opacity: .6 !important;
+}
+.carousel-item{
+    margin-top: 5%;
 }
 #carouselExampleIndicators{
     margin-top: 5%;
@@ -20,3 +24,11 @@
 .d-none {
     display: block !important;
 }
+@media(max-width:800px) {
+    .carousel-item{
+        margin-top: 15% !important;
+        padding-bottom: 10% !important;
+                            }
+                            
+                                    }
+                                        
