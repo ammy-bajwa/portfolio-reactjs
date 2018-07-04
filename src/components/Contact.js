@@ -41,6 +41,23 @@ class Contact extends React.Component {
                         </form>
                     </div>
                 </div>
+                <div className="row align-items-center justify-content-center">
+                    <a href='https://www.facebook.com/amirsadiq.ali.10' target='_blank'>
+                        <img src='./images/facebook.svg' className='social' />
+                    </a>
+                    <a href='https://www.upwork.com/o/profiles/users/_~019ebd01cc94c16a5c/' target='_blank'>
+                        <img src='./images/upwork.svg' className='social' />
+                    </a>
+                    <a href='https://www.instagram.com/amir_sadiq_ali/' target='_blank'>
+                        <img src='./images/instagram.svg' className='social' />
+                    </a>
+                    <a href='https://twitter.com/Amir_Sadiq_Ali' target='_blank'>
+                        <img src='./images/twitter.svg' id='twitter' />
+                    </a>
+                    <a href='https://www.linkedin.com/in/amir-ali-400007151/' target='_blank'>
+                        <img src='./images/linked.svg' className='social' />
+                    </a>
+                </div>
             </div>
         );
     }
