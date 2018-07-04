@@ -9,7 +9,7 @@
     "devServer": "webpack-dev-server",
     "webpack": "webpack",
     "start": "node server/server.js",
-    "heroku-postbuild": "npm run webpack:prod"
+    "heroku-postbuild": "npm run webpack"
   },
   "dependencies": {
     "babel-cli": "*",
