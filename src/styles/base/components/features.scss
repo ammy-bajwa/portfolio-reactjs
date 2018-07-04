@@ -2,8 +2,16 @@
     width: auto;
 }
 .featureCard{
-    background: rgba(0, 0, 0, 0)
+    background: rgba(0, 0, 0, 0);
+    transition: .3s;
 }
+.featureCard:hover{
+    background: rgba(13, 13, 13, 0.7) !important;
+    border-radius: 5px !important;
+    box-shadow: 5px black !important;
+    border-radius: 3px;
+}
+
 #ImgFeatures{
     width: 100%;
 }
