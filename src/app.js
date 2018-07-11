@@ -21,10 +21,10 @@ class App extends React.Component {
           params={{
             "particles": {
               "number": {
-                "value": 50,
+                "value": window.screen.width > 500 ? 50 : 20,
                 "density": {
                   "enable": true,
-                  "value_area": 1200
+                  "value_area": window.screen.width > 500 ? 1700 : 2100
                 }
               },
               "color": {
